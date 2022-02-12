@@ -1,0 +1,18 @@
+nav{
+    height: 50px;
+    background: linear-gradient(45deg, hsl(241, 88%, 66%), #fff);
+}
+.liste {
+    list-style-type: none;
+    background: linear-gradient(45deg, hsl(241, 88%, 66%), #fff);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.itmes {
+    margin-right: 10px;
+    color : #fff;
+    cursor: pointer;
+}

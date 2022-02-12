@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #fff;
+    /*background:blue;*/
+    background-image: url("../src/Image/biat.png");
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.FormInscrs{
+    width: 400px;
+    height: 580px;
+    background-color:rgba(0,0,0,0,6) ;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    border-radius: 5px;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    box-shadow: 0 0 10px #000;
+
+
+}
+.Form-text{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000;
+    background-color:regba(0,0,0,0,6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Form-saisie label{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.Form-saisie input{
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    background-color: rgb(0,0,0,0,6);
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+}
+.Form-saisie input[type="sumbit"].btninscr{
+    width: 100%;
+    font-size: 18px;
+    background-color: blue;
+    color: #000;
+    margin: 209x 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.Form-saisie a{
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    background: rgb(247, 245, 245);
+}
+.Form-saisie a:hover{
+ background-color:orangered;
+}
+.Form-saisie span{
+    color: black;
+}
